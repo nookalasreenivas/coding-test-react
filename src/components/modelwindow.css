@@ -1,0 +1,33 @@
+.modelwindow{
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.modelwindowcontent{
+    background-color: #fff;
+    width: 600px;
+    height: 650px;
+    padding: 10px;
+    position:relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-flow: wrap row;
+}
+.imgbig{
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+}
+.close{
+    position: absolute;
+    top: 33px;
+    right: 4px;
+}

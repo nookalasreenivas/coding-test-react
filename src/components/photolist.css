@@ -1,0 +1,7 @@
+.photolist{
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
